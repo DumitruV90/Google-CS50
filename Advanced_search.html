@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Advanced search</title>
+
+    <link href="styles_ads.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a class="sign_in"
+                        href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign
+                        in</a></li>
+                <li><a href="#"><img class="grid"
+                            src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png"
+                            title="Google apps"></a></li>
+                <li class="link_left">
+                    <a href="Google.html"><img class="google_logo" alt="Google"
+                            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+                </li>
+            </ul>
+        </nav>
+        <span class="app_bar">Advanced search</span>
+
+    </header>
+
+
+    <form action="https://google.com/search" name="f">
+
+        <div>
+            <span class="first_col">Find pages with...</span>
+            <span class="last_col">To do this in the search box.</span>
+        </div>
+
+        <div class="row">
+            <div class="col_25">
+                <label for="field-1">all these words:</label>
+            </div>
+            <div class="col_75">
+                <input class="text_input" type="text" name="as_q" autofocus>
+                <span>This is a required field.</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_25">
+                <label for="field-2">this exact word or phrase:</label>
+            </div>
+            <div class="col_75">
+                <input class="text_input" type="text" name="as_epq">
+                <span>Put exact words in quotes: "rat terrier"</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_25">
+                <label for="field-3">any of these words:</label>
+            </div>
+            <div class="col_75">
+                <input class="text_input" type="text" name="as_oq">
+                <span>Type OR between all the words you want: miniature OR standard</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_25">
+                <label for="field-4">none of these words:</label>
+            </div>
+            <div class="col_75">
+                <input class="text_input" type="text" name="as_eq">
+                <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col_25">
+                <label for="field-5">numbers ranging from:</label>
+            </div>
+            <div class="col_75">
+                <input class="text_input_half" type="text" name="as_nlo">
+                <div class="middle_text">to</div>
+                <input class="text_input_half" type="text" name="as_nhi">
+                <span>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500,
+                    2010..2011</span>
+            </div>
+        </div>
+
+        <div class="ads_bottom">
+            <input type="hidden" name="tbs" value>
+            <input type="submit" value="Advanced search">
+        </div>
+        
+    </form>
+
+    <div class="epilogue">
+        <span>You can also...</span>
+        <div class="bottom_links">
+            <a href="https://support.google.com/websearch?p=adv_pages_similar&hl=en">Find pages that are similar to a
+                URL</a><br>
+            <a href="https://support.google.com/websearch?p=adv_pages_visited&hl=en">Search pages that you've visited</a><br>
+            <a href="https://support.google.com/websearch?p=adv_operators&hl=en">Use operators in the search box</a><br>
+            <a href="https://www.google.com/preferences?hl=en-CO">Customize your search settings</a>
+        </div>
+    </div>
+
+    <footer>
+        <ul class="footer_left">
+            <li><a
+                    href="https://support.google.com/websearch/?p=ws_results_help&hl=en-CO&fg=1">Help</a>
+            </li>
+            <li><a
+                    href="https://policies.google.com/privacy?hl=en-CO&fg=1">Privacy</a>
+            </li>
+            <li><a href="https://policies.google.com/terms?hl=en-CO&fg=1">Terms</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

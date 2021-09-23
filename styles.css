@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 700px;
+}
+
+header {
+    width: 100%;
+}
+
+/* Navigation bar**/
+
+nav ul {
+    list-style-type: none;
+    margin: 5px 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+    padding: 8px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.link_left {
+    float: left;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+  
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    height: 23px;
+    vertical-align: middle;
+}
+
+.sign_in {
+    background-color: #4885ed;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+  
+.sign_in:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 5px #999;
+}
+
+/* Google search */
+
+form {
+    height: 300px;
+}
+  
+.google_logo {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 20px 0;
+}
+  
+.bar {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    width: 575px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/111px-Vector_search_icon.svg.png');
+    background-size: 15px 16px;
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border:1px solid #dcdcdc;
+}
+  
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+  
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+  
+.search_bar {
+    height: 43px;
+    border: none;
+    width: 470px;
+    font-size: 15px;
+    outline: none;
+}
+  
+.voice {
+    position: relative;
+    height: 20px;
+    top: 13px;
+    left: 24px;
+}
+  
+.search_options {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+.button {
+    background-color: #f5f5f5;
+    border: none;
+    color: #707070;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+  
+.button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: #808080;
+}
+  
+.button:focus{
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+/* Google images */
+
+.search_bar_img {
+    height: 43px;
+    border: none;
+    width: 440px;
+    font-size: 15px;
+    outline: none;
+}
+  
+.images_text {
+    position: absolute;
+    color: #4285f4;
+    margin: 75px 0 0 210px;
+}
+  
+.camera_icon {
+    position: relative;
+    height: 28px;
+    top: 8px;
+    left: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    margin-top: 211px;
+    height: 50px;
+    width: 100%;
+}
+  
+footer li {
+    display: inline;
+    text-align: center;
+    padding: 13px;
+    font-size: 14px;
+}
+  
+footer li a {
+    color: #666666;
+    text-decoration: none;
+}
+  
+footer li a:hover {
+    text-decoration: underline;
+}
+  
+.footer_left {
+    float: left;
+    padding-left: 8px;
+}
+  
+.footer_right {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Settings */
+
+.dropbtn {
+    color: #666666;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropup {
+    position: relative;
+    display: inline;
+}
+  
+.dropup-content {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    text-align: left;
+    width: 158px;
+    right: 7px;
+    bottom: 43px;
+    border: 1px solid #000;
+    z-index: 1;
+}
+  
+.dropup-content a {
+    color: #666666;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropup:hover .dropbtn {text-decoration: underline;}
+  
+.dropup:hover .dropup-content {display: block;}
+  
+.dropup-content a:hover {text-decoration: underline;}
+  
+  
+@media screen and (max-width: 800px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footer_right {
+        display: none;
+    }
+}
