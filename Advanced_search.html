@@ -33,7 +33,7 @@
     </header>
 
 
-    <form action="https://google.com/search" name="f">
+    <form action="https://google.com/search" name="f" method="GET">
 
         <div>
             <span class="first_col">Find pages with...</span>
@@ -45,7 +45,7 @@
                 <label for="field-1">all these words:</label>
             </div>
             <div class="col_75">
-                <input class="text_input" type="text" name="as_q" autocomplete="off" autofocus>
+                <input class="text_input" id="field-1" type="text" name="as_q" autocomplete="off" autofocus>
                 <span>This is a required field.</span>
             </div>
         </div>
@@ -55,7 +55,7 @@
                 <label for="field-2">this exact word or phrase:</label>
             </div>
             <div class="col_75">
-                <input class="text_input" type="text" name="as_epq" autocomplete="off">
+                <input class="text_input" id="field-2" type="text" name="as_epq" autocomplete="off">
                 <span>Put exact words in quotes: "rat terrier"</span>
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <label for="field-3">any of these words:</label>
             </div>
             <div class="col_75">
-                <input class="text_input" type="text" name="as_oq" autocomplete="off">
+                <input class="text_input" id="field-3" type="text" name="as_oq" autocomplete="off">
                 <span>Type OR between all the words you want: miniature OR standard</span>
             </div>
         </div>
@@ -75,7 +75,7 @@
                 <label for="field-4">none of these words:</label>
             </div>
             <div class="col_75">
-                <input class="text_input" type="text" name="as_eq" autocomplete="off">
+                <input class="text_input" id="field-4" type="text" name="as_eq" autocomplete="off">
                 <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
             </div>
         </div>
@@ -85,10 +85,10 @@
                 <label for="field-5">numbers ranging from:</label>
             </div>
             <div class="col_75">
-                <input class="text_input_half" type="text" name="as_nlo" autocomplete="off">
+                <input class="text_input_half" id="field-5" type="text" name="as_nlo" autocomplete="off">
                 <div class="middle_text">to</div>
                 <input class="text_input_half" type="text" name="as_nhi" autocomplete="off">
-                <span>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500,
+                <span>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, &#163;300..&#163;500,
                     2010..2011</span>
             </div>
         </div>
