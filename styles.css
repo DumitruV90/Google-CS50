@@ -237,7 +237,7 @@ footer li a:hover {
 .dropup-content a:hover {text-decoration: underline;}
   
   
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     footer {
         display: flex;
         justify-content: center;

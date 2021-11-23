@@ -236,7 +236,7 @@ footer li a:hover {
 
 /* Media queries */
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .col_25, .col_75 {
         margin-top: 13px;
         width: 100%;
@@ -253,7 +253,7 @@ footer li a:hover {
     }
 }
 
-@media screen and (max-width: 1800px) {
+@media (max-width: 1800px) {
     .last_col {
         display: none;
     }
